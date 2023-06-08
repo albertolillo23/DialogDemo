@@ -13,8 +13,6 @@ import com.aldebaran.qi.sdk.design.activity.conversationstatus.SpeechBarDisplayP
 import com.aldebaran.qi.sdk.design.activity.conversationstatus.SpeechBarDisplayStrategy
 import com.aldebaran.qi.sdk.`object`.conversation.*
 
-private const val TAG = "START CHAT ACTIVITY"
-
 class MainActivity : RobotActivity(), RobotLifecycleCallbacks {
 
     override fun onCreate(savedInstanceState: Bundle?) {
