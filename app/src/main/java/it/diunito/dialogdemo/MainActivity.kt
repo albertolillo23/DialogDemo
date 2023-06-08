@@ -48,7 +48,7 @@ class MainActivity : RobotActivity(), RobotLifecycleCallbacks {
             .build()
 
         // Execute the chat asynchronously
-        val fchat: Future<Void> = chat.async().run()
+        chat.async().run()
     }
 
     override fun onRobotFocusLost() {
